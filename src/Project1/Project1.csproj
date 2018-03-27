@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFramework>netcoreapp2.0</TargetFramework>
+		<TargetFramework>net462</TargetFramework>
 		<OutputType>Exe</OutputType>
-		<RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
-		<ApplicationIcon />
 		<StartupObject />
 	</PropertyGroup>
 </Project>
