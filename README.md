@@ -12,5 +12,12 @@
 * [C# programming guide](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
 * [Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
 
+tuan is awesome 
+and cool 
+192739856-1=192739855
+AWESOME RIGHT!!!!!!!!!!!!!!!!!
+I love coding who dosen't oh yeah 
+hahahahahahahahahahahahahahahah
+
 
 
