@@ -96,5 +96,5 @@ Start the build process by right clicking on the project and click "Build".  You
     * Build and run to see if your change work.
 
 ## Commit your change and push it to the cloud
-* Follow the instruction here: [Make a change](../../Setup.md#make-a-change)
+* Follow the instruction here: [Make a change](../../README.md#make-a-change)
 
