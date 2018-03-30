@@ -3,6 +3,13 @@
 # Summary
 Open the Project 1 using Visual Studio and Learn about the Visual Studio IDE (Integrated Development Environment) and the composition of a visual studio solution.  Some basic C# programming topic will also be covered.
 
+# Pull the lastest update from the remote Repo
+1. Run Git Bash
+1. Set your current folder to `/c/github/learning`
+1. You are now in the Learning Repo and your current branch should be your name.
+1. Pull the lastest update from the github.com
+    * Command: git pull
+
 # The Solution
 * Read: [Visual Studio Wiki Page](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio)
 * Double click on the file `/c/github/learning/src/Project1/Learning.sln`
