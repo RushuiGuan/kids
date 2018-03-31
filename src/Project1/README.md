@@ -1,7 +1,14 @@
 # Project 1
 
 # Summary
-Open the Project 1 using Visual Studio and Learn about the Visual Studio IDE (Integrated Development Environment)
+Open the Project 1 using Visual Studio and Learn about the Visual Studio IDE (Integrated Development Environment) and the composition of a visual studio solution.  Some basic C# programming topic will also be covered.
+
+# Pull the lastest update from the remote Repo
+1. Run Git Bash
+1. Set your current folder to `/c/github/learning`
+1. You are now in the Learning Repo and your current branch should be your name.
+1. Pull the lastest update from the github.com
+    * Command: git pull
 
 # The Solution
 * Read: [Visual Studio Wiki Page](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio)
@@ -56,7 +63,7 @@ namespace Project1 {
 ```
 
 ## The Names
-When it comes to programming, lots of names are used.  Meaningful names are important whether it is for a class, variable or method.  In most languages, names should be made of alphanumeric plus the underline characters.  The first character of a name cannot be numeric.  So here are some examples
+When it comes to programming, lots of names are used.  Meaningful names are important because it makes the program easier to read.  In most languages, names should be made of alphanumeric plus the underline characters.  The first character of a name cannot be numeric.  So here are some examples
 ```
 //legal names
 cat, _cat, CAT, Cat, cat0, _cat_0, _cat0_,
@@ -76,12 +83,17 @@ Method is a code block that contains a series of statements.  A C# program does 
 # Build the Program
 To get the program working, it will have to be built.  During the build process, the computer will analyse your code and check for errors.  If everything is fine, it should produce an output file that can run.
 
-Start the build process by right clicking on the project and click "Build".  You can also type Ctrl-Shift-B on your keyboard.  You should be seeing activities on the output panel docked at the bottom of the visual studio.  Once the build is completed, its output can be found in this folder: `/c/github/learning/src/project1/bin/debug/net462/`.  Open the folder and find the program output.  It should be:
-* Project1.exe - this is the exe file, this is the file that can be run.
-* Project1.pdb - this is a symbol file.
+Start the build process by right clicking on the project and click "Build".  You can also type Ctrl-Shift-B on your keyboard or use the Build menu item on the top.  
+* Observe: 
+    * The output panel docked at the bottom of the window should be showing a series of build activities.
+    * The errors panel should pop up as well.  It should have 0 error and 0 warning.  
+    * Once the build is completed, its output can be found in this folder: `/c/github/learning/src/project1/bin/debug/net462/`.  
+    * Open the folder and find the program output.  It should be:
+        * Project1.exe - this is the exe file, this is the file that can be run.
+        * Project1.pdb - this is a symbol file.
 
 # Execute the output
-* Using your bash shell, execute the file by typing this command: `/c/github/learning/src/project1/bin/debug/net462/Project1.exe`.
+* Using your bash shell, execute the your output by typing this command: `/c/github/learning/src/project1/bin/debug/net462/Project1.exe`.
 * A quicker way to run your program is to press: Ctrl-F5 using Visual Studio.
 
 # Exercise
@@ -91,11 +103,16 @@ Start the build process by right clicking on the project and click "Build".  You
 * Build and run again to see if you break anything.
 * Change the name of the Main method.
     * Did this break something?
+    * Where do you find the errors?
+        * Both the output window and the errors window show the same error.  Which one do you prefer?
     * Could you find out why using google?
-    * If not, it is OK, change the name back.
+        * a good way to research is to google the error message.
+        * [stackoverflow.com](http://stackoverflow.com) is a very good resource for programming.
+    * Fix the error by changing the method name back to Main.
 * Change the "Hello World" to something else.
-    * Build and run to see if your change work.
+    * Build and run to see if your changes work.
 
 ## Commit your change and push it to the cloud
-* Follow the instruction here: [Make a change](../../README.md#make-a-change)
+* Remember how to push your changes to your remote repo from the last lesson?
+    * if not, you can always find the instructions here [Make a change](../../README.md#make-a-change)
 
