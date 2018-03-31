@@ -17,14 +17,15 @@ Open the Project 1 using Visual Studio and Learn about the Visual Studio IDE (In
     * Project1 is a console program.
 
 # The Project
-* A project can contain many files.  Different files have different purposes.
-    * README.md file - That's this file!  md stands for Mark Down.  It is a popular file format used to create documents.  It is widely adopted by many web sites and companies.  Here is a guide for [Github Markdown](https://guides.github.com/features/mastering-markdown/).
-    * Dependencies - A group of files that are required for this project to function properly.
-    * Properties - Project settings and configurations;  Something that will be visited later.
-    * Program.cs - The Source code.  This is where you write your program.  
+A project can contain many files.  Different files have different purposes.
+
+* README.md file - That's this file!  md stands for Mark Down.  It is a popular file format used to create documents.  It is widely adopted by many web sites and companies.  Here is a guide for [Github Markdown](https://guides.github.com/features/mastering-markdown/).
+* Dependencies - A group of files that are required for this project to function properly.
+* Properties - Project settings and configurations;  Something that will be visited later.
+* Program.cs - The Source code.  This is where you write your program.  
     
 # The Source Code
-    * A project could have many source code files.  Let's take a look at the Program.cs file
+A project could have many source code files.  Let's take a look at the Program.cs file
 
 ```csharp
 //This is a comment; comment is created by leading double slashes
