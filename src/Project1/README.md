@@ -61,6 +61,28 @@ namespace Project1 {
     }
 }
 ```
+## The structure of a C# source file
+A C# source code file (files with .cs extension) will always have the following structure.
+```csharp
+//References
+using Reference1;
+using Reference2;
+using Reference3;
+//Namespace
+namespace Company.Project{
+    //Class
+    public class Class1{
+        ...
+    }
+    //Class
+    public class Class2{
+        ...
+    }
+}
+```
+* There is no restriction on how many namespaces or how many classes a source file can have.  But for the sake of clarity, each source file typically contains one class.
+* It is OK to have a class without a namespace.
+* It is OK to put references inside the namespace and before the class declaration.
 
 ## The Names
 When it comes to programming, lots of names are used.  Meaningful names are important because it makes the program easier to read.  In most languages, names should be made of alphanumeric plus the underline characters.  The first character of a name cannot be numeric.  So here are some examples
@@ -70,6 +92,30 @@ cat, _cat, CAT, Cat, cat0, _cat_0, _cat0_,
 
 //illegal names
 0cat, _ cat, cat^, cat_%, cat paw
+```
+## The scopes
+A scope is a block of code.  Indicated by a pair of curly bracket: {}.
+* Scopes are often encapsulated.
+* A scope can be on its own.  The code below is perfectly OK.
+    ```csharp
+    {
+        int i = 4;
+        Console.WriteLine(i);
+        {
+            string s = "test";
+            Console.WriteLine(s);
+        }
+    }
+    ```
+* But typically, a scope is associated with a function.
+```csharp
+namespace TestNameSpace{    //namespace scope
+    public class TestClass{     //class scope
+        public void TestMethod(){      //method scope
+            ...
+        }
+    }
+}
 ```
 ## Namespaces
 Namespace is a way to organize your code.  It can be delimited using dot.  This is a legal namespace: `CompanyName.ProjectName`.  Please read this [article](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/namespaces/index) about namespaces.
