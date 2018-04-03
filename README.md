@@ -10,6 +10,7 @@ hahahahahahahahahahahahahahahah
 * [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)
 * [Git for Windows](https://git-scm.com/download/win)
 * [GitHub Desktop](https://desktop.github.com/)
+* [.NET Framework 4.6.2 Developer Pack](https://www.microsoft.com/net/download/all)
 
 # Required Accounts
 * https://github.com/
