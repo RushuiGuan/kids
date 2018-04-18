@@ -18,7 +18,7 @@ namespace Project1 {
     { 
         //this is a method
         static int Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Tuan");
             return 0;
         }
     }

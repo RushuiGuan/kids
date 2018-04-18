@@ -48,14 +48,14 @@ The comment section can be multiple lines
 using System;
 
 //this is the namespaces
-namespace ProjectTuan {
+namespace ProjectLan {
 
     //this is the class
     public class Program
     { 
         //this is a method
         static int Main(string[] args) {
-            Console.WriteLine("Hello Tuan");
+            Console.WriteLine("Hello Lan");
             return 0;
         }
     }
