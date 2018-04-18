@@ -2,7 +2,7 @@
 /* 
 this is also a comment;
 The comment section can be multiple lines
-*/
+*/ 
 
 // multiline comment can be created by using /* and */
 // however, It is standard to use leading // for all comments.
