@@ -25,9 +25,10 @@ Reference [this](../Project1/readme.md#pull-the-lastest-update-from-the-remote-r
 * [Statements](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/statements)
 * [Expressions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expressions)
 * [Operators](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/operators)
+* [Types](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/index)
 * [Value Types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/value-types)
 
-# Homework
+# Homework 1
 Modify your Main method to do the following:
 * Calculate the sum of 5 integers and print out the result using `Console.WriteLine` command.
 * Calculate the product of 3 decimals and print out the result.
@@ -36,3 +37,9 @@ Modify your Main method to do the following:
 * Build and run your code.
     * Verify that your result is correct.
 * Submit your change to the remote repo.
+
+
+# Homework 2
+* Modify your program to read a line of text and display the same to the screen.
+	* Use `Console.Readline` method to read a line of text.
+	* Use `Console.WriteLine` method to write a line of text.
