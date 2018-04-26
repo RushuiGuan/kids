@@ -4,7 +4,8 @@
 Project 2 will focus on creating your own C# project using visual studio.  It will then move on to C# programming concepts such as Types, Classes, Methods.
 
 # Pull the latest changes from the remote repository.
-Reference [this](../Project1/readme.md#pull-the-lastest-update-from-the-remote-repo) if you are not sure on how to proceed. 
+Reference [this](https://github.com/RushuiGuan/learning/tree/master/src/Project1#pull-the-lastest-update-from-the-remote-repo) if you are not sure on how to proceed. 
+
 
 # Create a project
 * Open Visual Studio
