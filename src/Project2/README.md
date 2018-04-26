@@ -9,7 +9,7 @@ Reference [this](https://github.com/RushuiGuan/learning/tree/master/src/Project1
 
 # Create a project
 * Open Visual Studio
-* Click on menu File -> New
+* Click on menu File -> New -> Project
 * Click on Visual C# -> Windows Classic Desktop
 * Choose `Console App (.Net Framework)`
 * Type a name for your new project.
