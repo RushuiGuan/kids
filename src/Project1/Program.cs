@@ -2,7 +2,7 @@
 /* 
 this is also a comment;
 The comment section can be multiple lines
-*/
+*/ 
 
 // multiline comment can be created by using /* and */
 // however, It is standard to use leading // for all comments.
@@ -18,7 +18,7 @@ namespace Project1 {
     { 
         //this is a method
         static int Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Tuan");
             return 0;
         }
     }
