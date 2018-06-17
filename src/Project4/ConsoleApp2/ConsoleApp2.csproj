@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{312D0B5E-0F7C-4862-BFF7-4337F431F298}</ProjectGuid>
+    <ProjectGuid>{D38CABD3-07C6-4CA1-B1B3-45E8C35F0F39}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tuanproject_</RootNamespace>
-    <AssemblyName>Tuanproject%40</AssemblyName>
+    <RootNamespace>ConsoleApp2</RootNamespace>
+    <AssemblyName>ConsoleApp2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
