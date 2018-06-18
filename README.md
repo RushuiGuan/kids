@@ -1,10 +1,3 @@
-tuan is awesome 
-and cool 
-192739856-1=192739855
-AWESOME RIGHT!!!!!!!!!!!!!!!!!
-I love coding who dosen't oh yeah 
-hahahahahahahahahahahahahahahah
-
 # Required Software
 * [Visual Studio Community Edition](https://www.visualstudio.com/downloads/)
 * [Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)
