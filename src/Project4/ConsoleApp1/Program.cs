@@ -9,8 +9,8 @@ public class TuanProject4
 {
 	public static int Sum(int num1, int num2)
 	{
-		int total;
-		total = num1 * num2 /2;
+	int total;
+		total = 3 * num1 * 2;
 		return total;
 	}
 
@@ -19,23 +19,23 @@ public class TuanProject4
 
 		
 		{
-			Console.Write("\n\n This is a program to calculate the area of the triangle :\n");
+			Console.Write("\n\n This is a program to calculate the area of the circle :\n");
 			Console.Write("_______________________________________________________________\n");
-			Console.Write("Please enter the base (in): ");
+			Console.Write("Please enter the radius (in):");
 
 			string txt;
 			txt = Console.ReadLine();
 			int n1;
 			n1 = Convert.ToInt32(txt);
-			Console.Write("Please enter the height (in): ");
+			//Console.Write("Please enter the radius : ");
 
 
-			txt = Console.ReadLine();
-			int n2 = Convert.ToInt32(txt);
+			//txt = Console.ReadLine();
+			//int n2 = Convert.ToInt32(txt);
 
 			int Tuan;
-			Tuan = n1 * n2 /2;
-			Console.WriteLine("\nThe area of the triangle is : {0} in^2\n", Tuan);
+			Tuan = 3 * n1 * n1;
+			Console.WriteLine("\nThe area of the circle is: {0} in^2 \n", Tuan);
 			
 			{
 				
