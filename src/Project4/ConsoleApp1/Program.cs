@@ -4,29 +4,42 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project4
+
+public class TuanProject4
 {
-	class Program
+	public static int Sum(int num1, int num2)
 	{
-		static void Main(string[] args)
+		int total;
+		total = num1 * num2 /2;
+		return total;
+	}
+
+	public static void Main()
+	{
+
+		
 		{
-			int l = 7;
-			int w = 2;
-			int a = l * w = a;
+			Console.Write("\n\n This is a program to calculate the area of the triangle :\n");
+			Console.Write("_______________________________________________________________\n");
+			Console.Write("Please enter the base (in): ");
 
-			 a = l * w;
-
-
-
-
-
-
+			string txt;
+			txt = Console.ReadLine();
+			int n1;
+			n1 = Convert.ToInt32(txt);
+			Console.Write("Please enter the height (in): ");
 
 
+			txt = Console.ReadLine();
+			int n2 = Convert.ToInt32(txt);
 
-
-
-
-		}
+			int Tuan;
+			Tuan = n1 * n2 /2;
+			Console.WriteLine("\nThe area of the triangle is : {0} in^2\n", Tuan);
+			
+			{
+				
+			}
+		};
 	}
 }

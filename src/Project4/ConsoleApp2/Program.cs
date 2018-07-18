@@ -36,7 +36,7 @@ public class TuanProject4
 
 			int Tuan;
 			Tuan = n1 * n2;
-			Console.WriteLine("\nThe sum of two numbers is : {0} \n", Tuan);
+			Console.WriteLine("\nThe product of the two numbers is : {0} \n", Tuan);
 			Console.WriteLine(" Do you want to do it one more time ?");
 
 			txt = Console.ReadLine();
